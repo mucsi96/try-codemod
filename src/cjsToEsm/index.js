@@ -1,8 +1,9 @@
 const migrateImports = require("./imports");
 const migrateNamedImports = require("./namedImports");
+const migrateDefaultImports = require("./defaultImports");
 const migrateExports = require("./exports");
 
-const transforms = [migrateImports, migrateNamedImports, migrateExports];
+const transforms = [migrateImports, migrateNamedImports, migrateDefaultImports, migrateExports];
 
 module.exports = function (file, api, options) {
   let src = file.source;

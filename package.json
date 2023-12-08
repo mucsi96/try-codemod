@@ -9,7 +9,7 @@
     "test": "jest",
     "start:immutable": "jscodeshift -t src/removeImmutable --parser=tsx --extensions=js,ts,tsx C:\\Users\\mucsi\\dev\\try-codemod\\demo\\immutable",
     "start:react-intl": "jscodeshift -t src/removeReactIntl --parser=tsx --extensions=js,ts,tsx C:\\Users\\mucsi\\dev\\try-codemod\\demo\\react-intl",
-    "start:cjsToEsm": "jscodeshift -t src/cjsToEsm --parser=tsx --extensions=js,ts,tsx C:\\Users\\mucsi\\dev\\try-codemod\\demo\\react-intl",
+    "start:cjsToEsm": "jscodeshift -t src/cjsToEsm --parser=tsx --extensions=js,ts,tsx C:\\Users\\mucsi\\dev\\try-codemod\\demo\\cjs",
     "start": "yarn start:immutable && yarn start:react-intl"
   },
   "devDependencies": {
